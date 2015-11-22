@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+	<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:inputType="phone"
+			android:ems="10"
+			android:id="@+id/targetNo" android:autoText="false" android:editable="true" android:hint="@string/labelTargetNumber"/>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+		<CheckBox
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/enabled"
+				android:id="@+id/enabled" android:checked="false" android:layout_weight="1"/>
+	</LinearLayout>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/cancel"
+				android:id="@+id/cancel" android:width="0dip" android:layout_weight="1"/>
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ok"
+				android:id="@+id/ok" android:width="0dip" android:layout_weight="1"/>
+	</LinearLayout>
+</LinearLayout>
+

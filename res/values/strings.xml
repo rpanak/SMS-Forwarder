@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Simle SMS Forwarder</string>
+	<string name="labelTargetNumber">Target number</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="enabled">Enabled</string>
+	<string name="labelForwarder">SMS Forwarder</string>
+</resources>
